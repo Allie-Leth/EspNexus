@@ -12,8 +12,6 @@ lib/**/src/*.elf
 lib/**/src/*.map
 lib/**/src/*.a
 
-# Build artifacts
-/src/
 
 # Logs and temporary files
 *.log
