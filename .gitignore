@@ -1,0 +1,44 @@
+# PlatformIO Core
+/.pio/
+/.vscode/
+/build/
+/.ccls-cache/
+platformio.ini.save
+
+# Project-specific
+lib/**/src/*.o
+lib/**/src/*.d
+lib/**/src/*.elf
+lib/**/src/*.map
+lib/**/src/*.a
+
+# Build artifacts
+/src/
+
+# Logs and temporary files
+*.log
+*.tm%
+*.bak
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor-specific
+*.code-workspace
+
+# Arduino-related
+*.bin
+*.elf
+*.hex
+*.eep
+
+# Custom library build artifacts
+lib/**/library.json.save
+lib/**/library.json~
+
+# Git-specific
+*.orig
+*.rej
