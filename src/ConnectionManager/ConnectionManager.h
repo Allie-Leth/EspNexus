@@ -14,7 +14,7 @@ public:
     // Initializes both the BLE and ESP-NOW subsystems
     static void initialize();
 
-    // Handles receiving the initial MAC list from the BLE-connected app
+    // Handles receiving the initial WiFi Mac list from the BLE connected app
     static void handleInitialMacList(const std::vector<std::string>& macList);
 
     // BLE and ESP-NOW Cross-Communication

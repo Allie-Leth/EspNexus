@@ -1,7 +1,7 @@
 #ifndef DEVICE_REGISTRY_H
 #define DEVICE_REGISTRY_H
 
-#include "RegisteredDevice.h"
+#include "Devices/RegisteredDevice.h"
 #include <vector>
 #include <memory>
 #include <map>
