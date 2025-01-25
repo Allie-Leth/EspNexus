@@ -1,5 +1,5 @@
-#ifndef BASE_DEVICE_H
-#define BASE_DEVICE_H
+#ifndef DEVICE_H
+#define DEVICE_H
 
 #include "DeviceProtocols.h"
 #include <string>
@@ -38,4 +38,4 @@ struct Device {
     std::array<bool, 10> deviceHealthHistory = {false};         // History of connection health checks
 };
 
-#endif // BASE_DEVICE_H
+#endif // DEVICE_H
